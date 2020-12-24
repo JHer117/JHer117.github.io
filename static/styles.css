@@ -1,0 +1,272 @@
+*{
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  body{
+    background: url('https://i.imgur.com/bZOojWV.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(5px);  
+    background-color: rgb(63, 63, 63);}
+  
+  
+  
+  
+  
+  /* HEADER VID */
+  
+  header {
+      position: relative;
+      background-color: rgb(63, 63, 63);
+      height: 100vh;
+      min-height: 25rem;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    header video {
+      position: absolute;
+      top: 38%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header .container {
+      position: relative;
+      z-index: 2;
+    }
+    
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgb(63, 63, 63);
+      opacity: 0.5;
+      z-index: 1;
+    }
+    
+    /* @media (pointer: coarse) and (hover: none) {
+      header {
+        background: url('https://i.imgur.com/1MhwqpV.jpg?1') black no-repeat center center scroll;
+      }
+      header video {
+        display: none;
+      }
+    } */
+  
+  
+  #nav-img{width: 6%;}
+  
+  @media only screen and (max-width:600px) {
+      #nav-img{width: 15%;}
+  }
+  
+  #instagram_link{width: 20%;}
+  
+  @media only screen and (max-width:600px) {
+    #instagram_link{width:10%;}
+  }
+  
+  #header{color: rgb(248, 142, 55);
+          font-family: 'Julius Sans One', sans-serif;
+  }
+  .lead{color: rgb(199, 115, 47);
+        font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  @media only screen and (max-width:600px) {
+    #header{font-size: 4rem;}
+  }
+  
+  
+  #packages_section{margin-top: 100px;}
+  #packages{margin-top: 50px;}
+  
+  @media only screen and (max-width:600px) {
+    #packages_header{font-size: 3rem;}
+  }
+  
+  .carousel-caption{ background-color: rgb(51, 51, 51); 
+                    color: rgb(0, 255, 255);
+                    border-radius: 3px;
+  }
+  @media only screen and (max-width:600px) {
+    .package_title{font-size: 10px;}
+    #custom_pckg_header{font-size: 14px;}
+  }
+  
+  
+  
+  .details_span a{color: rgb(58, 161, 161);  font-style: italic;}
+  
+  #about{margin-top: 150px;}
+  @media only screen and (max-width:600px) {
+    #about_text h1{font-size: 3rem;}
+  }
+  
+  #img_logo{width: 10%; border-radius: 4px;}
+  @media only screen and (max-width:600px) {
+    #img_logo{width: 25%;}
+  }
+  
+  #logo_block{background-color: rgb(0, 255, 255);}
+  .display-2{color: rgb(248, 142, 55); margin-bottom: 25px;}
+  #about_text{color: aliceblue;}
+  #pa_about{color: rgb(248, 142, 55); margin-top: 15px;}
+  @media only screen and (max-width:600px) {
+    #pa_about{font-size: 1rem;}
+  }
+  
+  #about_paragraph{margin-top: 20px; margin-bottom: 100px;}
+  #w{color: rgb(0, 255, 255);}
+  #paft{color: rgb(248, 142, 55);}
+  #constitution_link{color: rgb(185, 187, 189); font-weight: bold;}
+  #party{color: rgb(248, 142, 55); font-style: italic;}
+  
+  #about_link{color: rgb(248, 142, 55); font-style: italic; font-weight: bold;}
+  
+  
+  /* MORE ABOUT US SECTION */
+.card-header{background-color: rgb(51, 51, 51);}
+
+.card-body{background-color: rgb(51, 51, 51);}
+.about_p{color: rgb(0, 0, 0);}
+  
+.card-body span{color: rgb(248, 142, 55);}
+
+#p{font-weight: bold;}
+
+#name{color:rgb(252, 134, 38);
+        text-decoration: underline;
+        text-decoration-color: rgb(41, 190, 190);
+}
+
+.four_keys{color:rgb(252, 134, 38) ;
+        text-decoration: underline !important;
+        text-decoration-color: rgb(41, 190, 190) !important;
+        font-weight: bold;
+}
+
+.motto{color:rgb(41, 190, 190);}
+@media only screen and (max-width:600px) {
+  #about_section .motto{
+    font-size: 18px;
+  }
+}
+
+  /* END ABOUTS US SECTION */
+
+
+
+
+  /* CONTACT CARD */
+  
+  
+  #contact{
+      margin-top: 200px;
+      max-width: 45rem;
+      margin-bottom: 50px;
+      border-radius: 4px;
+  }
+  
+  #contact_me{
+    color: rgb(199, 115, 47);
+  }
+  
+  .contact_form_input{
+      text-align: center;
+      display: block;
+      width: 100%;
+      margin: 15px 0;
+      box-sizing: border-box;
+      border: 0;
+      background: rgb(61, 61, 61);
+      padding: 10px 150px;
+      color: azure;
+      border-radius: 3px;
+      outline: none;
+    
+  }
+  
+  @media only screen and (max-width:600px) {
+    
+    .contact_form_input{font-size: 10px;
+    padding: 10px 75px;
+    }
+  }
+  
+  
+  
+  .contact_form_input:focus{
+      box-shadow: 0 0 10px 4px rgb(199, 115, 47);
+  }
+  
+  textarea.contact_form_input{
+      resize: none;
+      height: 120px;
+  }
+  
+  #contact_btn{
+      color: rgb(199, 115, 47);
+      border-radius: 20px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgb(43, 42, 42);
+      padding: 5px 25px;
+      float: right;
+      margin-bottom: 10px;
+  }
+  
+  #contact_btn:hover{
+      box-shadow: 0 0 10px 4px rgb(0, 255, 255); 
+  }
+  
+  
+  /* SCROLLBAR */
+  
+  ::-webkit-scrollbar{
+      width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track{
+      border: 7px solid;
+      box-shadow: inset 0 0 2.5px 2px rgb(0,0,0,0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, rgb(248, 142, 55), rgb(43, 42, 42));
+  
+  }
+  
+  
+  /* BACK TO TOP */
+  
+  #up_btn_img{
+      max-width: 3rem;
+      border-radius: 20px;
+    }
+  
+  
+    #back_to_top{
+        margin-bottom: 25px;
+    }
+    
+    
+  
+    #back_to_top img:hover{
+      box-shadow: 0 0 10px 4px rgb(248, 142, 55); 
+  
+    }
+  
