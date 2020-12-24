@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
 
-    document.querySelectorAll('a[href^="#about_section"]').forEach($anchor => {
+    document.querySelectorAll('a[href^="#about_link"]').forEach($anchor => {
         $anchor.addEventListener('click', function (e) {
             e.preventDefault();
             document.querySelector(this.getAttribute('href')).scrollIntoView({

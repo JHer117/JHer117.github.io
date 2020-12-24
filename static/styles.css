@@ -165,31 +165,14 @@
         font-weight: bold;
 }
 
-/* .motto{color:rgb(41, 190, 190);}
-#motto{
-    background-color: rgb(51, 51, 51);
-    background-image: linear-gradient( rgb(51,51,51), rgba(51, 51, 51, 0));
-}
 
-@media only screen and (max-width:600px) {
-.motto{
-    font-size: 18px;
-  }
-} */
 
   /* END ABOUTS US SECTION */
 
   hr{background-color: rgb(252, 134, 38);}
 
 
-  .motto{color:rgb(41, 190, 190);}
-@media only screen and (max-width:600px) {
-  #about_section .motto{
-    font-size: 18px;
-  }
-}
 
-#motto{margin-top: 200px;}
 
 
   /* CONTACT CARD */
@@ -205,6 +188,11 @@
   
   #contact_me{
     color: rgb(41, 190, 190);;
+  }
+  @media only screen and (max-width:600px) {
+ #contact_me{
+      font-size: 18px;
+    }
   }
   
   .contact_form_input{
