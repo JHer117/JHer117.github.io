@@ -58,7 +58,7 @@
     }
     
    
-  
+  /* NAVS */
   
   #nav-img{width: 6%;}
   
@@ -91,6 +91,129 @@
   @media only screen and (max-width:600px) {
     #header{font-size: 4rem;}
   }
+/*  */
+
+
+#site_construct{
+    background-color: rgb(63, 63, 63);
+    opacity: 0.4;
+}
+#pardon_dust h3, #pardon_dust h4, #pardon_dust h6{
+    color: rgb(0, 255, 255);
+    
+}
+@media only screen and (max-width:600px) {
+    #pardon_dust h3{font-size: 1.5rem;}
+    #pardon_dust h4{font-size: 1rem;}
+    #pardon_dust h6{font-size: .7rem;}
+  }
+
+/* PACKAGES CARDs SECTION */
+
+.package_title{
+    color: rgb(0, 255, 255);
+}
+
+.content h3{
+    color: rgb(248, 142, 55);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 255);
+}
+
+#packg_cards{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgb(63, 63, 63);
+    box-shadow: 0 30px 30px rgba(0,0,0,.5);
+}
+@media only screen and (max-width:600px) {
+    .box{margin-bottom: 25px;}
+}
+@media only screen and (min-width:600px) {
+    .box{margin-bottom: 25px;}
+}
+
+.box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+
+}
+
+.box:hover .imgBx img{
+    opacity: 0;
+}
+
+.box .content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: rgb(51, 51, 51);
+    transition: 0.5s;
+    overflow: hidden;
+
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box:hover .content{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+
+}
+
+.box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+.box .content p{
+    color: azure;
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    /* text-align: justify; */
+}
+
+.box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+/*  */
+
+
+
+  /* OLD PACKAGES STYLE */
   
  #coming_soon_packages{color: rgb(248, 142, 55);}
  @media only screen and (max-width:600px) {
@@ -116,9 +239,11 @@
     #custom_pckg_header{font-size: 14px;}
   }
   
-  
-  
   .details_span{color: rgb(58, 161, 161);  font-style: italic;}
+  /*  */
+ 
+
+  /* ABOUT SECTION */
   
   #about{margin-top: 150px;
     background-color: rgb(51, 51, 51);
@@ -147,8 +272,9 @@
   #party{color: rgb(248, 142, 55); font-style: italic;}
   
   #about_link{color: rgb(248, 142, 55); font-style: italic; font-weight: bold;}
-  
-  
+  /*  */
+
+
   /* MORE ABOUT US SECTION */
 
 .card{
@@ -182,10 +308,10 @@
         text-decoration-color: rgb(41, 190, 190) !important;
         font-weight: bold;
 }
+/*  */
 
 
 
-  /* END ABOUT US SECTION */
 
   hr{background-color: rgb(252, 134, 38);}
 
