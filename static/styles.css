@@ -141,6 +141,8 @@
     background: rgb(63, 63, 63);
     box-shadow: 0 30px 30px rgba(0,0,0,.5);
 }
+
+
 @media only screen and (max-width:600px) {
     .box{margin-bottom: 25px;}
 }   
@@ -234,6 +236,9 @@
     transition-delay: 0.5s;
 }
 
+/* .modal-content{
+    background-color: rgb(51, 51, 51);
+} */
 
 /*  */
 
@@ -266,6 +271,15 @@
   }
   
   .details_span{color: rgb(58, 161, 161);  font-style: italic;}
+
+  #customize_pckgs{
+      margin-top: 15px;
+  }
+
+  .package_text{
+      color: azure;
+  }
+
   /*  */
  
 
