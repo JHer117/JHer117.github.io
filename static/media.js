@@ -43,10 +43,61 @@ $(document).ready(function(){
     });
 
 
+    function scrollAppearPackg(){
+        var packgFadeIn = document.querySelector(".packg_fadein");
+        var introPosition = packgFadeIn.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight / 1.5;
+
+
+        if(introPosition < screenPosition){
+            packgFadeIn.classList.add("packages_section_appear")
+        }
+    }
+
+    window.addEventListener("scroll",scrollAppearPackg);
+
+
+    function scrollAppearCards(){
+        var cardsFadeIn = document.querySelector(".cards_fadein");
+        var introPosition = cardsFadeIn.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight / 1.5;
+
+
+        if(introPosition < screenPosition){
+            cardsFadeIn.classList.add("cards_fadein_appear")
+        }
+    }
+
+    window.addEventListener("scroll",scrollAppearCards);
+
+
+    function scrollAppearAbout(){
+        var aboutFadeIn = document.querySelector(".about_fadein");
+        var introPosition = aboutFadeIn.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight / 2;
+
+
+        if(introPosition < screenPosition){
+            aboutFadeIn.classList.add("about_fadein_appear")
+        }
+    }
+
+    window.addEventListener("scroll",scrollAppearAbout);
 
 
 
+    function scrollAppearContact(){
+        var contactFadeIn = document.querySelector(".contact_fadein");
+        var introPosition = contactFadeIn.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight / 2;
 
+
+        if(introPosition < screenPosition){
+            contactFadeIn.classList.add("contact_fadein_appear")
+        }
+    }
+
+    window.addEventListener("scroll",scrollAppearContact);
 
 
 
