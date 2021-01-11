@@ -555,3 +555,57 @@
   
     }
   
+
+    /* BOTTOM CRED INFO */
+
+    #site_cred_container{
+        margin-top: 50px;
+        padding-bottom: 10px;
+        text-shadow: 2px 2px 8px rgb(41, 190, 190), 4px 4px 40px rgb(248, 142, 55);
+
+    }
+
+    #site_cred{
+        font-size: .7rem;
+        color: rgb(248, 142, 55);
+        margin-bottom: 0px;
+    }
+
+    #my_name{
+        color: rgb(41, 190, 190);
+        font-style: italic;
+        font-family: 'Audiowide', cursive;
+    }
+
+    #cred_links p {
+        font-size: .7rem;
+        color: rgb(248, 142, 55);
+        display: inline-block;
+
+    }
+
+    #insta_bot_link{
+        display: inline-block;
+        width: 2.5%;
+    }
+
+    /* FADE IN AFFECT FOR CRED SECTION */
+    .cred_fadein_top{
+        opacity: 0;
+        transform: translateX(150px);
+        transition: 1s all ease-in-out;
+    }
+    .cred_fadein_appear_top{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    .cred_fadein_bot{
+        opacity: 0;
+        transform: translateX(-150px);
+        transition: 1s all ease-in-out;
+    }
+    .cred_fadein_appear_bot{
+        opacity: 1;
+        transform: translateX(0px);
+    }

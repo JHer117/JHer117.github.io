@@ -100,6 +100,32 @@ $(document).ready(function(){
     window.addEventListener("scroll",scrollAppearContact);
 
 
+    function credFadeIn(){
+        var credFadeIn = document.querySelector(".cred_fadein_top");
+        var introPosition = credFadeIn.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight;
+
+
+        if(introPosition < screenPosition){
+            credFadeIn.classList.add("cred_fadein_appear_top")
+        }
+    }
+
+    window.addEventListener("scroll",credFadeIn);
+
+
+    function credFadeInTwo(){
+        var credFadeInTwo = document.querySelector(".cred_fadein_bot");
+        var introPosition = credFadeInTwo.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight;
+
+
+        if(introPosition < screenPosition){
+            credFadeInTwo.classList.add("cred_fadein_appear_bot")
+        }
+    }
+
+    window.addEventListener("scroll",credFadeInTwo);
 
 
 });
