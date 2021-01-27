@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    alert("There are NO: firearms, firearm accessories, ammunition, or products of any kind being sold, traded, given away, lent, or borrowed, at any time or anywhere in person or on this website!")
+
+
+
     document.querySelectorAll('a[href^="#up_top"]').forEach($anchor => {
         $anchor.addEventListener('click', function (e) {
             e.preventDefault();
