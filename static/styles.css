@@ -3,18 +3,17 @@
   }
   
   body{
-    background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+    background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     backdrop-filter: blur(5px);  
-    background-color: rgb(63, 63, 63);
     }
     
     
     @media only screen and (max-width:600px) {
-    body{ background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+    body{ background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -22,7 +21,7 @@
         backdrop-filter: blur(5px);}
     }
     @media only screen and (min-width: 375px) {
-        body{background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+        body{background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -30,7 +29,7 @@
             backdrop-filter: blur(5px);}
     } 
     @media only screen and (min-width: 576px) {
-        body{background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+        body{background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -38,7 +37,7 @@
             backdrop-filter: blur(5px);}
     } 
     @media only screen and (min-width: 600px) {
-        body{background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+        body{background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -46,7 +45,7 @@
             backdrop-filter: blur(5px);}
     } 
     @media only screen and (min-width: 768px) {
-        body{background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+        body{background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -54,7 +53,7 @@
             backdrop-filter: blur(5px);}
     }
     @media only screen and (min-width: 992px) {
-        body{background: url('static\images\bg_guns.jpg') no-repeat center center fixed;
+        body{background: #3f3f3f url('https://imgur.com/pKQLokQ.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
